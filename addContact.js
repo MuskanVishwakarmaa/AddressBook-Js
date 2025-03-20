@@ -8,3 +8,6 @@ function addContactToAddressBook(contact) {
 let contact = new Contact("Muskan", "Vishwakarma", "123 Main St", "New York", "NY", "10001", "1234567890", "muskan.vishwakarma@gmail.com");
 addContactToAddressBook(contact);
 console.log(addressBook);
+
+// Export addressBook to make it available in other files
+module.exports = addressBook;
